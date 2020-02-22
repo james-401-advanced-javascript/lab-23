@@ -28,7 +28,8 @@ server.on("connection", client => {
     client.on("message", socket => {
     server.emit("broadcast", {
       name: socket.name,
-      message: socket.message
+      message: socket.message,
+      pic: socket.pic
     });
   });
 
