@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/james-401-advanced-javascript/lab-23#readme",
   "dependencies": {
-    "socket.io": "^2.3.0"
+    "socket.io": "^2.5.0"
   }
 }
